@@ -1,60 +1,200 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>FocalShot Pro Privacy Policy</title>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    background: #0d0d0d;
-    color: #ffffff;
-    padding: 40px;
-    line-height: 1.6;
-}
-h1, h2 {
-    color: #FFD60A;
-}
-.container {
-    max-width: 800px;
-    margin: auto;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | FocalShot Pro</title>
+    <style>
+        :root {
+            --bg-color: #000000;
+            --surface-color: #1C1C1E;
+            --text-primary: #F2F2F7;
+            --text-secondary: #8E8E93;
+            --accent-yellow: #FFD60A;
+            --accent-blue: #0A84FF;
+            --border-color: #38383A;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .logo-text {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        .logo-text span {
+            color: var(--accent-yellow);
+        }
+
+        .effective-date {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .policy-card {
+            background-color: var(--surface-color);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        h2 {
+            color: var(--text-primary);
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2::before {
+            content: "";
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background-color: var(--accent-yellow);
+            border-radius: 50%;
+        }
+
+        p {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            color: var(--text-secondary);
+            font-size: 15px;
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        li:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: var(--accent-blue);
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+
+        .contact-pill {
+            display: inline-block;
+            background-color: rgba(10, 132, 255, 0.1);
+            color: var(--accent-blue);
+            padding: 10px 20px;
+            border-radius: 100px;
+            font-weight: 500;
+            font-size: 15px;
+            margin-top: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px 16px;
+            }
+            .policy-card {
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-<div class="container">
 
-<h1>FocalShot Pro - Privacy Policy</h1>
-<p><strong>Effective Date:</strong> 2026</p>
+    <div class="container">
+        <div class="header">
+            <div class="logo-text">f<span>o</span>calShot Pro</div>
+            <div class="effective-date">Privacy Policy • Effective Date: April 2026</div>
+        </div>
 
-<h2>1. Information We Do Not Collect</h2>
-<p>FocalShot Pro does not collect personal data like name, email, phone, or location.</p>
+        <div class="policy-card">
+            <h2>1. Information We Do Not Collect</h2>
+            <p>FocalShot Pro is designed as a privacy-first, offline camera application. We do not require you to create an account, and we do not collect, store, or transmit any personal identification information such as your name, email address, phone number, or precise location data to our own servers.</p>
+        </div>
 
-<h2>2. Permissions</h2>
-<ul>
-<li>Camera - capture photos and videos</li>
-<li>Microphone - record audio in videos</li>
-<li>Storage - save and display media</li>
-</ul>
+        <div class="policy-card">
+            <h2>2. Device Permissions Required</h2>
+            <p>To provide core camera functionalities, FocalShot Pro requires explicit access to specific device hardware features. These permissions are strictly used locally on your device:</p>
+            <ul>
+                <li><strong>Camera:</strong> Required to capture photographs and record video content.</li>
+                <li><strong>Microphone:</strong> Required optionally to capture audio tracks alongside your video recordings.</li>
+                <li><strong>Storage (Photos & Videos):</strong> Required to save your captured media directly to your device's local gallery and to display them within the app's internal preview tools.</li>
+            </ul>
+        </div>
 
-<h2>3. Ads</h2>
-<p>This app uses Google AdMob which may collect device and usage data.</p>
-<p>See: https://policies.google.com/privacy</p>
+        <div class="policy-card">
+            <h2>3. Third-Party Services and Advertising</h2>
+            <p>While we do not collect data directly, our application utilizes Google AdMob to display advertisements and support ongoing development. AdMob acts as an independent third-party data controller.</p>
+            <p>Google AdMob automatically collects certain information, including Device IDs, crash logs, and diagnostic data, to serve personalized ads, prevent fraud, and monitor SDK performance. This data is encrypted in transit.</p>
+            <p>For detailed information on how Google handles this data, please review the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
+        </div>
 
-<h2>4. Purchases</h2>
-<p>Payments are handled by Google Play. We do not store payment info.</p>
+        <div class="policy-card">
+            <h2>4. Data Storage and Retention</h2>
+            <p>All photographs, videos, and edits created using FocalShot Pro are processed and stored exclusively on your local device storage. We do not upload your media to any cloud servers or external databases. Because we do not store your data, we do not have a mechanism to facilitate data deletion requests—you retain full control over your media through your device's native file management systems.</p>
+        </div>
 
-<h2>5. Data Storage</h2>
-<p>All data stays on your device.</p>
+        <div class="policy-card">
+            <h2>5. Subscriptions and Purchases</h2>
+            <p>FocalShot Pro offers premium features via in-app purchases and subscriptions. All payment transactions are securely processed entirely through the Google Play Billing system. We do not intercept, collect, or store your credit card details or financial information.</p>
+        </div>
 
-<h2>6. Children</h2>
-<p>This app is not directed to children under 13.</p>
+        <div class="policy-card">
+            <h2>6. Children's Privacy</h2>
+            <p>FocalShot Pro is designed for a general audience and is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you become aware that a child has provided us with personal data, please contact us so we can take appropriate action.</p>
+        </div>
 
-<h2>7. Updates</h2>
-<p>This policy may be updated over time.</p>
+        <div class="policy-card">
+            <h2>7. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy periodically to reflect changes in our practices or regulatory requirements. We encourage you to review this page occasionally. Continued use of the application after modifications indicates your acknowledgment of the updated terms.</p>
+        </div>
 
-<h2>8. Contact</h2>
-<p>focalshotpro@gmail.com</p>
+        <div class="policy-card">
+            <h2>8. Contact Us</h2>
+            <p>If you have any questions, concerns, or suggestions regarding this Privacy Policy or our data practices, please reach out to us via email.</p>
+            <a href="mailto:focalshotpro@gmail.com" class="contact-pill">focalshotpro@gmail.com</a>
+        </div>
+    </div>
 
-</div>
 </body>
 </html>
